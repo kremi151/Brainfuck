@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_play"
+        android:icon="@drawable/ic_action_play"
+        android:showAsAction="always"
+        android:title="@string/run"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_step_fwd"
+        android:icon="@drawable/ic_action_step_forward"
+        android:showAsAction="always"
+        android:title="@string/step_fwd"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_run_delayed"
+        android:icon="@drawable/ic_action_step_forward"
+        android:title="@string/run_delayed"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/item_clear"
+        android:showAsAction="never"
+        android:title="@string/clear_all"
+        app:showAsAction="never" />
+
+    <item
+        android:showAsAction="never"
+        app:showAsAction="never"
+        android:title="@string/menu_scripts">
+
+        <menu>
+            <item
+                android:id="@+id/item_new_script"
+                android:showAsAction="never"
+                android:title="@string/new_script"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_save"
+                android:showAsAction="never"
+                android:title="@string/save"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_save_as"
+                android:showAsAction="never"
+                android:title="@string/save_as"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_open"
+                android:showAsAction="never"
+                android:title="@string/open_script"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+    <item
+        android:showAsAction="never"
+        app:showAsAction="never"
+        android:title="@string/menu_convert">
+
+        <menu>
+            <item
+                android:id="@+id/item_convert_genuine"
+                android:showAsAction="never"
+                android:title="@string/convert_to_regular"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_convert_c"
+                android:showAsAction="never"
+                android:title="@string/convert_to_c"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_convert_java"
+                android:showAsAction="never"
+                android:title="@string/convert_to_java"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/item_examples"
+        android:showAsAction="never"
+        android:title="@string/examples"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_commands"
+        android:showAsAction="never"
+        android:title="@string/commands"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_settings"
+        android:showAsAction="never"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

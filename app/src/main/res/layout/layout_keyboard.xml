@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="&lt;"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonL"
+            android:textSize="20sp"/>
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="&gt;"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonR"
+            android:textSize="20sp" />
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonP"
+            android:textSize="20sp" />
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="-"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonM"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.32"
+            app:srcCompat="@drawable/ic_backspace_black_24dp"
+            android:id="@+id/buttonDelete"
+            android:scaleType="centerInside"
+            android:tint="@color/colorAccent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text=","
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonI"
+            android:textSize="20sp" />
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="."
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonO"
+            android:textSize="20sp" />
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="["
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonS"
+            android:textSize="20sp" />
+
+        <lu.kremi151.brainfuck.views.SquareButton
+            android:text="]"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:id="@+id/buttonE"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/buttonMoveLeft"
+            android:adjustViewBounds="true"
+            android:tint="@color/colorAccent" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.16"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp"
+            android:id="@+id/buttonMoveRight"
+            android:adjustViewBounds="true"
+            android:tint="@color/colorAccent" />
+
+    </LinearLayout>
+</LinearLayout>

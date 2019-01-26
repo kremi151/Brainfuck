@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Brainfuck</string>
+    <string name="run">Run</string>
+    <string name="step_fwd">Step forward / Run</string>
+    <string name="examples">Examples</string>
+    <string name="input_req">Input required</string>
+    <string name="register_tape">Register (Tape)</string>
+    <string name="output">Output</string>
+    <string name="error_occured">An error occured</string>
+    <string name="exec_error_msg">An error occured while executing the Brainfuck code forcing the execution to stop immediately</string>
+    <string name="warning">Warning</string>
+    <string name="bracket_missing">There exist one or many loops which are missing either a beginning or an end</string>
+
+    <string-array name="examples_list">
+        <item>Read, save and output 8 digits</item>
+        <item>Convert text to BF code and display</item>
+        <item>Display text only</item>
+        <item>3 x 4 multiplication</item>
+        <item>Countdown beginning at 8</item>
+        <item>Display decimal number 123</item>
+        <item>Basic mathematic operations</item>
+        <item>Simple Cat program</item>
+    </string-array>
+
+    <string-array name="conversion_level">
+        <item>Exact</item>
+        <item>Compressed</item>
+    </string-array>
+
+    <string-array name="settings_entries">
+        <item>Extended execution mode</item>
+        <item>16 bit cells</item>
+        <item>Infinite loop detection (BETA)</item>
+        <item>Use BF-Keyboard as default</item>
+    </string-array>
+
+    <string name="basic_math_oper_desc">In this example, cell numbers are annotated as C0 for cell #0 for example. The enumeration of the cells starts by 0.</string>
+    <string name="command_desc_right">Increments the data pointer (to point to the next cell to the right)</string>
+    <string name="command_desc_left">Decrements the data pointer (to point to the next cell to the left)</string>
+    <string name="command_desc_plus">Increments (increase by one) the byte at the data pointer</string>
+    <string name="command_desc_minus">Decrements (decrease by one) the byte at the data pointer</string>
+    <string name="command_desc_output">Outputs the byte at the data pointer</string>
+    <string name="command_desc_input">Accepts one byte of input, storing its value in the byte at the data pointer</string>
+    <string name="command_desc_loop_start">If the byte at the data pointer is zero, then instead of moving the instruction pointer forward to the next command, jump it forward to the command after the matching ] command</string>
+    <string name="command_desc_loop_end">If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it back to the command after the matching [ command</string>
+    <string name="source">Source: %s</string>
+    <string name="commands">Commands</string>
+    <string name="clear_all">Clear all</string>
+    <string name="settings">Settings</string>
+    <string name="cat_prog_desc">This program will simply redirect the input to the output and write every character on the tape until the end of the given input</string>
+    <string name="infinite_loop_detected">An infinite loop has been detected forcing the execution to be stopped</string>
+    <string name="switch_keyboard">Switch keyboard</string>
+    <string name="delete">Delete</string>
+    <string name="status_running">Running&#8230;</string>
+    <string name="status_paused">Execution paused</string>
+    <string name="status_terminated_simple">Execution terminated</string>
+    <string name="status_terminated">Execution terminated (%d ticks)</string>
+    <string name="status_idle">Ready to execute</string>
+    <string name="convert_to_regular">Convert to genuine BF code</string>
+    <string name="convert_to_c">Convert to C code</string>
+    <string name="convert_to_java">Convert to Java code</string>
+    <string name="confirm_code_changements">Confirm code changements</string>
+    <string name="apply">Apply</string>
+    <string name="discard">Discard</string>
+    <string name="no_changed_applicable">No code changes are applicable</string>
+    <string name="run_delayed">Run with intervals</string>
+    <string name="choose_interval">Choose an interval (in milliseconds)</string>
+    <string name="converted_c_code">Converted C code</string>
+    <string name="converted_java_code">Converted Java code</string>
+    <string name="choose_conversion_lvl">Choose a conversion level</string>
+    <string name="save">Save</string>
+    <string name="save_as">Save as...</string>
+    <string name="open_script">Open script...</string>
+    <string name="enter_script_name">Enter a name for your script</string>
+    <string name="invalid_file_name">The given file name is invalid. Please only use letters (a-z, A-Z), numbers (0-9), blankspaces, hyphens (-) or underscores (_).</string>
+    <string name="error_while_saving_script">The script could not be saved due to an unexpected error</string>
+    <string name="error_while_loading_script">The script could not be loaded due to an unexpected error</string>
+    <string name="existing_file_name">There exists already a file with the specified name. Would you like to overwrite this file?</string>
+    <string name="load_script">Load script</string>
+    <string name="new_script">New script</string>
+    <string name="unsaved_entry">(Not saved) %1$s</string>
+    <string name="menu_convert">Convert code...</string>
+    <string name="menu_scripts">Script...</string>
+
+</resources>
